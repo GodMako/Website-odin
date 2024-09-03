@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    /border: 10px solid #ffa;
     justify-content: space-between;
     padding: 10px 200px;
 
@@ -44,8 +43,9 @@ img {
 }
 
 body {
-    margin: 0;
-}
+  padding: 0;
+  margin: 0;
+  }
 
 .content-container {
     display: flex;
@@ -154,8 +154,8 @@ font-weight: 900;
     height: 100px;
     align-items: center;
     padding: 10px;
-
-
+    color: white;
+ 
   }
 
   .box1 {
@@ -168,15 +168,21 @@ font-weight: 900;
    align-items: center;
    /* border: 10px solid firebrick; */
    padding: 20px;
+   margin: 100px;
    overflow: hidden;
-   
-   
+   flex: 1;
+  
   }
 
   .button1 {
     border: 2px solid white;
     display: flex;
-    justify-content: space-between;
+  }
+
+  .action {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
   }
 
   footer {
